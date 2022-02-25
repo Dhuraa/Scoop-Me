@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  line-height: 1.6em;
+}
+
+h1,
+h2 {
+
+  margin: 10px 0;
+}
+
+p {
+  margin: 20px 0;
+}
+
+a {
+  text-decoration: none;
+  color: #0e0105;
+}
+
+ul {
+  list-style: none;
+}
+
+nav {
+  font-size: 1.3em;
+  font-weight: 500;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav a {
+  padding: 10px;
+  margin: 0 15px;
+}
+
+nav a:hover {
+  color: #9a1d45;
+  font-weight: 500;
+}
+
+#home {
+  background-color: #fbf0f4;
+  height: 550px;
+}
+
+#story {
+  height: 500px;
+  background-color: #fbf0f4;
+  color: #0e0105;
+}
+
+#products {
+  height: 1400px;
+  background-color: #ffffff;
+  color: #0e0105;
+  padding: 3em 15em;
+}
+
+#reviews {
+  height: 500px;
+  background-color: #ffffff;
+  color: #0e0105;
+}
+
+#contact {
+  height: 500px;
+  background-color: #ffffff;
+  color: #0e0105;
+  font-family: "Hind Madurai", sans-serif;
+  text-align: center;
+  padding: 4%;
+  color: #0e0105;
+  padding: 4em 5em 0em 10em;
+}
+
+.container {
+  font-family: "Hind Madurai", sans-serif;
+  padding: 0 10em;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading {
+  justify-content: space-between;
+  background-color: #fbf0f4;
+}
+
+.fonthome {
+  font-family: "Fredoka One", cursive;
+  font-size: 3.2em;
+  font-weight: 500;
+  line-height: 1.2em;
+}
+
+.emp {
+  color: #9a1d45;
+}
+
+.leftmarg {
+  margin: 0 4.3em;
+}
+
+.inp {
+  padding: 0.5em;
+  font-size: 1em;
+  margin: 1%;
+  margin-top: 2%;
+}
+
+.rightprod{
+  margin-left: 2%;
+}
+
+.btn{
+  background: #9a1d45;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 9px;
+  font-family: "Hind Madurai", sans-serif;
+  cursor: pointer;
+}
+
+.btn-head {
+  padding: 9px 32px;
+  margin-top: -3%;
+  margin-left: 62px;
+}
+
+.btn-sign {
+  padding: 9px 32px;
+  margin-top: 2%;
+}
+
+.btn-con {
+  padding: 9px 114px;
+  margin-top: 3%;
+}
+
+.prod_head {
+  text-align: center;
+  padding: 1em;
+  font-size: 2.4em;
+  font-weight: bold;
+}
+
+footer {
+  height: 190px;
+  text-align: center;
+  background-color: #fbf0f4;
+}
+
+.footer-icon {
+  margin: 3% 2%;
+  color: #9a1d45;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.footer_marg{
+  margin-left: -3%;
+}
+
+
+
